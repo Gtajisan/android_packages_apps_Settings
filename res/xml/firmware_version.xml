@@ -27,7 +27,15 @@
         android:key="crdroid_logo"
         android:selectable="false" />
 
-    <!-- Device name -->
+    <!-- DerpFest maintainer -->
+    <Preference
+        android:key="maintainer"
+        android:title="@string/maintainer"
+        android:summary="@string/maintainer_name"
+        settings:enableCopying="true" />
+  
+  
+  <!-- Device name -->
     <Preference
         android:key="about_device_name"
         android:title="@string/about_device_name"
